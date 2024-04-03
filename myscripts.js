@@ -13,7 +13,7 @@ $(document).ready(function () {
       $(this).addClass("current");
       $("#" + tab_id).addClass("current");
     });
-  });
+  
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -22,3 +22,4 @@ $(document).ready(function () {
       clickable: true,
     },
   });
+});
